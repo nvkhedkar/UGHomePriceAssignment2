@@ -1,4 +1,4 @@
-# Project Name
+# House Price Prediction Assignment
 House price model creation using regularization
 
 
@@ -73,6 +73,10 @@ The top 10 features:
 |BsmtFinSF1|0.0520|High Type 1 finished square feet gives high prices|
 |TotalBsmtSF|0.0520|Larger basements give higher prices|
 
+## Bonus - RFE explored
+- Finally rfe is explored. Features are reduced to 100 using RFE. 
+- After reducing features, Linear, Ridge and Lasso are compared.
+- Lasso again does well and eleminates more variables. 
 
 ## Technologies Used
 - Python:     3.9.6
