@@ -41,6 +41,7 @@ We used __Stratified sampling with a dummy variable__ to create train/test sets,
 |Age|Age of the property|2022 - YearBuilt|
 |RemodAge|How long ago the property was remodeled|2022 - YearRemodAdd|
 |GarageAge|How old the garage is|2022 - GarageYrBlt|    
+
 __The feature "Age" turned out to be a top 5 predictor in Lasso as will be seen.__  
 ## Conclusions
 - Optimal alpha values
